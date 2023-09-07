@@ -1,0 +1,24 @@
+
+    .custom-link {
+        color: white; /* Set the text color to white */
+        text-decoration: none; /* Remove underline */
+      }
+      
+
+.footer{
+    color: white;
+    height: 400px;
+    background-image:  linear-gradient(to bottom, #2728ba, #21258c, #1e1f60, #191736, #0d0d0d);
+    font-family: 'Times New Roman', Times, serif;
+}
+.gap_h{
+    height: 100px;
+}
+.footer_container{
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;  
+}
+.footer_info{
+    font-size: 15px;
+}

@@ -1,0 +1,63 @@
+.line{
+    margin: 0 50px;
+}
+
+.h_container_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white; /* Adjust the background color as needed */
+    color: #000; /* Adjust the text color as needed */
+    margin: 0 50px;
+}
+.h_left{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.h_btn{
+    background-color: white;
+    border: 1px solid blue;
+    width: 85px;
+    gap: 25px;
+    height: 30px;
+}
+.h_container_one{
+    margin : 0 50px
+}
+.h_info{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.btn_one{
+width: 225px;
+height: 27px;
+background: black;
+color: white;
+border: 1px solid black;
+}
+
+.btn_two{
+    width: 225px;
+    height: 27px;
+    background: red;
+    color: white;
+    border: 1px solid black;
+    }
+ .circle_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    }
+    .gap{
+        width: 30px;
+    }
+.cirlce_btn_{
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 150;
+    height: 35px;
+}

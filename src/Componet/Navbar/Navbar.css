@@ -1,0 +1,88 @@
+.navabar{
+  position: sticky;
+  top: 0;
+   z-index: 100;
+   width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+
+
+  }
+  
+  .logo {
+ 
+    margin-right: 20px; 
+
+  }
+  
+  .middle_part {
+    display: flex; /* Display children in a row */
+    align-items: center; /* Vertically align children */
+  }
+  
+  .middle_part ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display navigation items in a row */
+    color: #fff;
+  }
+  .btn_list{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid black;
+  }
+  .btn_list:hover{
+    background-color: #fff;
+    color: #000;
+    animation: forwards 1s;
+
+  }
+  
+  .middle_part li {
+    margin-right: 20px; /* Add spacing between navigation items */
+    padding: 5px;
+    gap: 2px;
+  }
+  
+  .right_part {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add spacing between login buttons */
+  }
+  
+  .login {
+    padding: 5px 10px;
+    /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    cursor: pointer;
+
+  }
+  .login:nth-child(1){
+    background-color: black;
+  }
+  
+  .login:nth-child(2){
+    background-color: white;
+    color: black;
+  }
+  .login:nth-child(1):hover{
+    background-color: white;
+    color: black;
+    animation: backwards 1s;
+
+  }
+  .login:nth-child(2):hover{
+    background-color: black;
+    color: white;
+    animation: backwards 1s;
+
+  }
+  /* Add additional styles as needed for the logo and navigation items */
+  
